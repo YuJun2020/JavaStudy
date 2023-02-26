@@ -10,7 +10,7 @@ public class TestCollection {
         Comparator<String> caseInsensitiveOrder = String.CASE_INSENSITIVE_ORDER;
         Queue<String> strings1 = new LinkedList<>();
         System.out.println("aaa");
-
+        System.out.println("bbb");
     }
 
 
