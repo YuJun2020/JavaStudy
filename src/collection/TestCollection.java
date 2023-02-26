@@ -12,6 +12,7 @@ public class TestCollection {
         System.out.println("aaa");
         System.out.println("bbbb");
         System.out.println("ddd");
+        System.out.println("ccc");
     }
 
 
