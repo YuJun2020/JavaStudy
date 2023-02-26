@@ -9,6 +9,7 @@ public class TestCollection {
         ArrayList<String> strings = new ArrayList<>();
         Comparator<String> caseInsensitiveOrder = String.CASE_INSENSITIVE_ORDER;
         Queue<String> strings1 = new LinkedList<>();
+        System.out.println("aaa");
 
     }
 
