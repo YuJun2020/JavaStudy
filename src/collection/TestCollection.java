@@ -11,6 +11,7 @@ public class TestCollection {
         Queue<String> strings1 = new LinkedList<>();
         System.out.println("aaa");
         System.out.println("bbbb");
+        System.out.println("ddd");
     }
 
 
