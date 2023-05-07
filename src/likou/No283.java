@@ -23,12 +23,15 @@ public class No283 {
         if (length == 1) {
             return;
         }
+        //统计0的个数
         int count = 0;
         for (int i = 0; i < length; i++) {
+            //若索引i处的元素为0，且索引小于数组长度减已统计的0的个数，后面元素前移1
             if (nums[i] == 0&&i<length-1-count) {
                 for (int j = i; j < length - 1-count; j++) {
                     nums[j] = nums[j + 1];
                 }
+                //移位后，数组末位非0元素置0
                 nums[length-1-count]=0;
                 count++;
                 if(nums[i]==0){
